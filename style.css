@@ -192,20 +192,19 @@ form i{
 @media screen and (max-width: 760px) {
     main, footer{
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: wrap-reverse;
         justify-content: center;
     }
     form input{
-        width: 320px;
-        height: 32px;
-        padding-left: 35px;       
+        width: 300px;       
     }
     form i{
         position: relative;     
         top: 0px;   
-        left: -315px;   
+        left: -295px;   
     }
     section{
-        margin-left: -60px;
+        margin-left:-100px;
+        margin-bottom: 30px;
     }
 }
